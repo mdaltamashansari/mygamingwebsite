@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai Offical</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="Assets/Icon-tab.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark border-bottom border-dark fixed-top"
+      style="background: rgba(0, 0, 0, 0.6)"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="Assets/icon.png" alt="icon" width="130" height="52" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleCaptions">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+          </ul>
+          <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- home-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h5>Beyond Limits</h5>
+            <p>
+              challenges gamers to push their boundaries and achieve the
+              impossible
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Unleash Your Inner Gamer</h5>
+            <p>
+              encourages individuals to embrace their love for gaming and unlock
+              their full potential.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Where Legends Are Born</h5>
+            <p>
+              a sense of prestige and legendary status, perfect for games that
+              emphasize heroism and grand adventures.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h5>Elevate Your Gaming Experience</h5>
+            <p>
+              gaming can be taken to the next level, providing a unique and
+              immersive experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- about section -->
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img pt-3">
+              <img
+                src="Assets/about us.png"
+                alt="about image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2 class="pb-2">
+                We Have<br /><span class="text-primary fw-bold">Best Team</span>
+              </h2>
+              <p>
+                Welcome to Ai offical the ultimate destination for gamers! We’re
+                a passionate community dedicated to bringing you the best in
+                gaming, whether you’re a casual player or a hardcore enthusiast.
+                From the latest news and reviews to exciting tournaments and
+                gameplay guides, we’ve got everything you need to level up your
+                gaming experience. At Ai official, we believe gaming is more
+                than just a hobby – it’s a lifestyle. That’s why we’re committed
+                to creating a platform where players from all over the world can
+                connect, compete, and share their love for games. Whether you’re
+                into action-packed shooters, immersive RPGs, competitive
+                esports, or indie gems, we’ve got something for everyone. Join
+                us as we explore new worlds, conquer challenges, and celebrate
+                the vibrant culture of gaming.
+              </p>
+              <a href="#" class="btn btn-warning">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-2">
+              <h2 class="fw-bold">Our Serives</h2>
+              <p class="lead text-danger fw-bold">
+                Online Tournaments & Competitions
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4 pb-2">
+            <div class="card text-white text-center pb-2">
+              <div class="card-body">
+                <img src="assets/img1.png" />
+                <h3 class="card-title fw-bold">Community Engagement</h3>
+                <p>
+                  Join forums, participate in discussions, and engage with
+                  like-minded gamers. Share tips, form squads, and create
+                  lasting connections. <br />
+                  Join us today for a experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4 pb-2">
+            <div class="card text-white text-center pb-2">
+              <div class="card-body">
+                <img src="Assets/img2.png" />
+                <h3 class="card-title fw-bold">Gaming Tips & Guides</h3>
+                <p>
+                  Master your favorite games with our expert tips, walkthroughs,
+                  and tutorials. From beginner guides to advanced strategies,
+                  we’re here to help you succeed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4 pb-2">
+            <div class="card text-white text-center pb-2">
+              <div class="card-body">
+                <img src="Assets/img3.png" />
+                <h3 class="card-title fw-bold">
+                  Hardware & Setup Consultation
+                </h3>
+                <p>
+                  Get advice on the best gaming gear and setups for your needs.
+                  Whether you’re building a gaming PC, upgrading your console
+                  experience, or setting up a streaming station, we’re here to
+                  guide you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team Section-->
+    <section id="team" class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-1">
+              <h2 class="fw-bold">Our Members</h2>
+              <p class="lead text-danger fw-bold">AI official</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+            <div class="card text-center">
+              <img
+                src="Assets/userimg.png"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-1 text-white">Full Name</h3>
+              <p class="card-text text-white">Lorem ipsum dolor sit amet.</p>
+              <p class="socials">
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+            <div class="card text-center">
+              <img
+                src="Assets/userimg.png"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-1 text-white">Full Name</h3>
+              <p class="card-text text-white">Lorem ipsum dolor sit amet.</p>
+              <p class="socials">
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+            <div class="card text-center">
+              <img
+                src="Assets/userimg.png"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-1 text-white">Full Name</h3>
+              <p class="card-text text-white">Lorem ipsum dolor sit amet.</p>
+              <p class="socials">
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+            <div class="card text-center">
+              <img
+                src="Assets/userimg.png"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-1 text-white">Full Name</h3>
+              <p class="card-text text-white">Lorem ipsum dolor sit amet.</p>
+              <p class="socials">
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-2">
+              <h1 class="text-primary fw-bold">Contact Us</h1>
+              <p class="lead">get in touch with our team</p>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4">
+            <form action="#" class="bg-light p-4.m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your full name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your email address"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea
+                      rows="3"
+                      required
+                      class="form-control"
+                      placeholder="Write Details About What You Want:"
+                    ></textarea>
+                  </div>
+                </div>
+                <button class="btn btn-outline-primary btn-lg btn-block mt-3">
+                  Send Now <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </form>
+
+            <div class="social-media text-center pt-4">
+              <p class="lead fw-bold" style="letter-spacing: 3px">Let's Talk</p>
+              <i class="bi bi-messenger h2 text-primary px-1"></i>
+              <i class="bi bi-whatsapp h2 text-primary px-1"></i>
+              <i class="bi bi-telegram h2 text-primary px-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer section-->
+    <footer class="bg-dark py-1 text-center">
+      <div class="container">
+        <p class="text-white">
+          all rights reserved <i class="bi bi-c-circle"></i>Aiofficial
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
